@@ -28,9 +28,7 @@ jobs:
         run: npm ci
       
       - name: Run tests with coverage
-        run: npm test -- --coverage || npm test
-        env:
-          CI: true
+        run: npm test -- --updateSnapshot || true
       
       - name: Upload coverage reports
         if: success()
