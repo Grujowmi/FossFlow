@@ -32,7 +32,7 @@ jobs:
         run: npm install && npm run build:lib && npm run build:app
         env:
           CI: false
-          PUBLIC_URL: /FossFLOW/
+          PUBLIC_URL: /FossFlow/
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
