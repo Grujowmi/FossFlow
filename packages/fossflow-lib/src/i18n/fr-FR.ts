@@ -1,4 +1,4 @@
-import { LocaleProps } from '../types/isoflowProps';
+﻿import { LocaleProps } from '../types/isoflowProps';
 
 const locale: LocaleProps = {
   common: {
@@ -186,7 +186,7 @@ const locale: LocaleProps = {
     configPath: "Cliquez sur l'icône Hamburger",
     configPath2: "en haut à gauche pour accéder à la Configuration.",
     canDisable: "Vous pouvez désactiver ce comportement si vous le souhaitez.",
-    signature: "-Stan"
+    signature: "-Grujowmi"
   }
 };
 

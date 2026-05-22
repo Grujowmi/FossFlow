@@ -1,4 +1,4 @@
-import { LocaleProps } from '../types/isoflowProps';
+﻿import { LocaleProps } from '../types/isoflowProps';
 
 const locale: LocaleProps = {
   common: {
@@ -186,7 +186,7 @@ const locale: LocaleProps = {
     configPath: "हैमबर्गर आइकन पर क्लिक करें",
     configPath2: "कॉन्फ़िगरेशन तक पहुंचने के लिए ऊपरी बाएं में।",
     canDisable: "यदि आप चाहें तो आप इस व्यवहार को अक्षम कर सकते हैं।",
-    signature: "-Stan"
+    signature: "-Grujowmi"
   }
 };
 

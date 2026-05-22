@@ -1,4 +1,4 @@
-import { LocaleProps } from '../types/isoflowProps';
+﻿import { LocaleProps } from '../types/isoflowProps';
 
 const locale: LocaleProps = {
   common: {
@@ -186,7 +186,7 @@ const locale: LocaleProps = {
     configPath: "点击左上角的汉堡菜单图标",
     configPath2: "以访问配置。",
     canDisable: "如果您愿意，可以禁用此行为。",
-    signature: "-Stan"
+    signature: "-Grujowmi"
   }
 };
 
