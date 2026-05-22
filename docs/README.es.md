@@ -1,4 +1,4 @@
-# FossFLOW - Herramienta de Diagramas Isométricos <img width="30" height="30" alt="fossflow" src="https://github.com/user-attachments/assets/56d78887-601c-4336-ab87-76f8ee4cde96" />
+﻿# FossFLOW - Herramienta de Diagramas Isométricos <img width="30" height="30" alt="fossflow" src="https://github.com/user-attachments/assets/56d78887-601c-4336-ab87-76f8ee4cde96" />
 
 <p align="center">
  <a href="../README.md">English</a> | <a href="README.cn.md">简体中文</a> | <a href="README.es.md">Español</a> | <a href="README.pt.md">Português</a> | <a href="README.fr.md">Français</a> | <a href="README.hi.md">हिन्दी</a> | <a href="README.bn.md">বাংলা</a> | <a href="README.ru.md">Русский</a> | <a href="README.id.md">Bahasa Indonesia</a> | <a href="README.de.md">Deutsch</a>
@@ -10,18 +10,15 @@ Si he implementado una función para ti o arreglado un error, sería genial si p
 
 <b>¡También!</b> Si aún no lo has hecho, por favor echa un vistazo a la biblioteca subyacente en la que esto está construido por <a href="https://github.com/markmanx/isoflow">@markmanx</a> Realmente estoy sobre los hombros de un gigante aquí 🫡
 
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/P5P61KBXA3)
 
-<img width="30" height="30" alt="image" src="https://github.com/user-attachments/assets/dc6ec9ca-48d7-4047-94cf-5c4f7ed63b84" /> <b> https://buymeacoffee.com/stan.smith </b>
 
 
 Gracias,
 
--Stan
 
 ## Pruébalo en línea
 
-Ve a  <b> --> https://stan-smith.github.io/FossFLOW/ <-- </b>
+Ve a  <b> --> https://grujowmi.github.io/FossFlow/ <-- </b>
 
 
 ------------------------------------------------------------------------------------------------------------------------------
@@ -29,7 +26,7 @@ FossFLOW es una potente aplicación web progresiva (PWA) de código abierto para
 
 ![Screenshot_20250630_160954](https://github.com/user-attachments/assets/e7f254ad-625f-4b8a-8efc-5293b5be9d55)
 
-- **🤝 [CONTRIBUTORS.md](https://github.com/stan-smith/FossFLOW/blob/master/CONTRIBUTORS.md)** - Cómo contribuir al proyecto.
+- **🤝 [CONTRIBUTORS.md](https://github.com/Grujowmi/FossFlow/blob/master/CONTRIBUTORS.md)** - Cómo contribuir al proyecto.
 
 ## Actualizaciones Recientes (Octubre 2025)
 
@@ -71,7 +68,7 @@ FossFLOW es una potente aplicación web progresiva (PWA) de código abierto para
 ### Mejoras de Docker y CI/CD
 - **Compilaciones Docker Automatizadas** - Flujo de trabajo de GitHub Actions para implementación automática de Docker Hub en commits
 - **Soporte Multi-arquitectura** - Imágenes Docker para `linux/amd64` y `linux/arm64`
-- **Imágenes Pre-construidas** - Disponibles en `stnsmith/fossflow:latest`
+- **Imágenes Pre-construidas** - Disponibles en `grujowmi/fossflow:latest`
 
 ### Arquitectura Monorepo
 - **Repositorio único** para biblioteca y aplicación
@@ -103,21 +100,21 @@ FossFLOW es una potente aplicación web progresiva (PWA) de código abierto para
 docker compose up
 
 # O ejecutar directamente desde Docker Hub con almacenamiento persistente
-docker run -p 80:80 -v $(pwd)/diagrams:/data/diagrams stnsmith/fossflow:latest
+docker run -p 80:80 -v $(pwd)/diagrams:/data/diagrams grujowmi/fossflow:latest
 ```
 
 El almacenamiento en servidor está habilitado por defecto en Docker. Tus diagramas se guardarán en `./diagrams` en el host.
 
 Para deshabilitar el almacenamiento en servidor, establece `ENABLE_SERVER_STORAGE=false`:
 ```bash
-docker run -p 80:80 -e ENABLE_SERVER_STORAGE=false stnsmith/fossflow:latest
+docker run -p 80:80 -e ENABLE_SERVER_STORAGE=false grujowmi/fossflow:latest
 ```
 
 ## Inicio Rápido (Desarrollo Local)
 
 ```bash
 # Clonar el repositorio
-git clone https://github.com/stan-smith/FossFLOW
+git clone https://github.com/Grujowmi/FossFlow
 cd FossFLOW
 
 # Instalar dependencias

@@ -1,4 +1,4 @@
-# FossFLOW - Alat Diagram Isometrik <img width="30" height="30" alt="fossflow" src="https://github.com/user-attachments/assets/56d78887-601c-4336-ab87-76f8ee4cde96" />
+﻿# FossFLOW - Alat Diagram Isometrik <img width="30" height="30" alt="fossflow" src="https://github.com/user-attachments/assets/56d78887-601c-4336-ab87-76f8ee4cde96" />
 
 <p align="center">
  <a href="../README.md">English</a> | <a href="README.cn.md">简体中文</a> | <a href="README.es.md">Español</a> | <a href="README.pt.md">Português</a> | <a href="README.fr.md">Français</a> | <a href="README.hi.md">हिन्दी</a> | <a href="README.bn.md">বাংলা</a> | <a href="README.ru.md">Русский</a> | <a href="README.id.md">Bahasa Indonesia</a> | <a href="README.de.md">Deutsch</a>
@@ -10,18 +10,15 @@ Jika saya telah mengimplementasikan fitur untuk Anda atau memperbaiki bug, akan 
 
 <b>Juga!</b> Jika Anda belum melakukannya, silakan lihat library dasar yang digunakan untuk membangun ini oleh <a href="https://github.com/markmanx/isoflow">@markmanx</a> Saya benar-benar berdiri di atas bahu raksasa di sini 🫡
 
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/P5P61KBXA3)
 
-<img width="30" height="30" alt="image" src="https://github.com/user-attachments/assets/dc6ec9ca-48d7-4047-94cf-5c4f7ed63b84" /> <b> https://buymeacoffee.com/stan.smith </b>
 
 
 Terima kasih,
 
--Stan
 
 ## Coba Secara Online
 
-Kunjungi  <b> --> https://stan-smith.github.io/FossFLOW/ <-- </b>
+Kunjungi  <b> --> https://grujowmi.github.io/FossFlow/ <-- </b>
 
 
 ------------------------------------------------------------------------------------------------------------------------------
@@ -29,7 +26,7 @@ FossFLOW adalah aplikasi web progresif (PWA) open-source yang powerful untuk mem
 
 ![Screenshot_20250630_160954](https://github.com/user-attachments/assets/e7f254ad-625f-4b8a-8efc-5293b5be9d55)
 
-- **🤝 [CONTRIBUTORS.md](https://github.com/stan-smith/FossFLOW/blob/master/CONTRIBUTORS.md)** - Cara berkontribusi pada proyek.
+- **🤝 [CONTRIBUTORS.md](https://github.com/Grujowmi/FossFlow/blob/master/CONTRIBUTORS.md)** - Cara berkontribusi pada proyek.
 
 ## Pembaruan Terbaru (Oktober 2025)
 
@@ -59,7 +56,7 @@ FossFLOW adalah aplikasi web progresif (PWA) open-source yang powerful untuk mem
 ### Peningkatan Docker & CI/CD
 - **Build Docker Otomatis** - Workflow GitHub Actions untuk deployment Docker Hub otomatis pada commit
 - **Dukungan Multi-arsitektur** - Image Docker untuk `linux/amd64` dan `linux/arm64`
-- **Image Pra-dibangun** - Tersedia di `stnsmith/fossflow:latest`
+- **Image Pra-dibangun** - Tersedia di `grujowmi/fossflow:latest`
 
 ### Arsitektur Monorepo
 - **Repositori tunggal** untuk library dan aplikasi
@@ -91,21 +88,21 @@ FossFLOW adalah aplikasi web progresif (PWA) open-source yang powerful untuk mem
 docker compose up
 
 # Atau jalankan langsung dari Docker Hub dengan penyimpanan persisten
-docker run -p 80:80 -v $(pwd)/diagrams:/data/diagrams stnsmith/fossflow:latest
+docker run -p 80:80 -v $(pwd)/diagrams:/data/diagrams grujowmi/fossflow:latest
 ```
 
 Penyimpanan server diaktifkan secara default di Docker. Diagram Anda akan disimpan ke `./diagrams` di host.
 
 Untuk menonaktifkan penyimpanan server, set `ENABLE_SERVER_STORAGE=false`:
 ```bash
-docker run -p 80:80 -e ENABLE_SERVER_STORAGE=false stnsmith/fossflow:latest
+docker run -p 80:80 -e ENABLE_SERVER_STORAGE=false grujowmi/fossflow:latest
 ```
 
 ## Mulai Cepat (Pengembangan Lokal)
 
 ```bash
 # Clone repositori
-git clone https://github.com/stan-smith/FossFLOW
+git clone https://github.com/Grujowmi/FossFlow
 cd FossFLOW
 
 # Install dependensi

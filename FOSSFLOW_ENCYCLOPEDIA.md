@@ -755,7 +755,7 @@ COPY --from=build /app/packages/fossflow-app/build /app/frontend
 
 1. **Clone and Install**:
 ```bash
-git clone https://github.com/stan-smith/FossFLOW
+git clone https://github.com/Grujowmi/FossFlow
 cd FossFLOW
 npm install  # Installs dependencies for all workspaces
 ```
@@ -897,7 +897,7 @@ transaction(() => {
 
 ### Known Issues
 
-⚠️ **Current Status**: Stan is investigating edge cases and bugs in the undo/redo system. While functional for basic operations, some complex interactions may cause issues.
+⚠️ **Current Status**: Grujowmi is investigating edge cases and bugs in the undo/redo system. While functional for basic operations, some complex interactions may cause issues.
 
 ### Error Handling Patterns
 

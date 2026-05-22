@@ -1,4 +1,4 @@
-# Contributing to FossFLOW
+﻿# Contributing to FossFLOW
 
 Thank you for your interest in contributing to FossFLOW! This guide will help you get started with contributing to the project.
 
@@ -31,7 +31,7 @@ The following are **out of scope** and PRs implementing them will be closed imme
 - Database integrations
 - Anything that fundamentally changes what FossFLOW is
 
-If you're unsure whether your idea fits, open a [Discussion](https://github.com/stan-smith/FossFLOW/discussions) first.
+If you're unsure whether your idea fits, open a [Discussion](https://github.com/Grujowmi/FossFlow/discussions) first.
 
 ## Code of Conduct
 
@@ -144,7 +144,7 @@ FossFLOW/
 
 ### Finding Issues to Work On
 
-1. Check the [Issues](https://github.com/stan-smith/FossFLOW/issues) page
+1. Check the [Issues](https://github.com/Grujowmi/FossFlow/issues) page
 2. Look for issues labeled:
    - `good first issue` - Great for newcomers
    - `help wanted` - Community help needed
@@ -409,7 +409,7 @@ describe('useIsoProjection', () => {
 
 1. **Update your fork**:
    ```bash
-   git remote add upstream https://github.com/stan-smith/FossFLOW.git
+   git remote add upstream https://github.com/Grujowmi/FossFlow.git
    git fetch upstream
    git checkout main
    git merge upstream/main
@@ -457,7 +457,7 @@ docker buildx build --platform linux/amd64,linux/arm64 -t fossflow:local .
 docker compose up
 
 # Or pull from Docker Hub
-docker run -p 80:80 stnsmith/fossflow:latest
+docker run -p 80:80 grujowmi/fossflow:latest
 ```
 
 ## Community
